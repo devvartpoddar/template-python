@@ -5,10 +5,11 @@ Project scaffold for new Python work — one template for both data-analysis and
 ## Using this template
 
 1. GitHub → **Use this template** → create a new repository (not fork, not clone).
-2. Rename `src/app/` to your project's package name; update the name in `pyproject.toml` and `AGENTS.md`.
-3. `uv sync --all-extras`
-4. Infra project rather than data-analysis? Delete `data/`, `notebooks/`, and `outputs/` — they won't be used.
-5. Copy `.env.example` to `.env` and fill in real values. `.env` is gitignored; `.env.example` is not.
+2. New repo's Settings → General → tick **"Automatically delete head branches"**. The one setting that actually matters; not carried over by the template.
+3. Rename `src/app/` to your project's package name; update the name in `pyproject.toml` and `AGENTS.md`.
+4. `uv sync --all-extras`
+5. Infra project rather than data-analysis? Delete `data/`, `notebooks/`, and `outputs/` — they won't be used.
+6. Copy `.env.example` to `.env` and fill in real values. `.env` is gitignored; `.env.example` is not.
 
 ## Layout
 
